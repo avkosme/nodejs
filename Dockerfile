@@ -1,5 +1,7 @@
 FROM avkosme/centos
 
+RUN yum -y install gcc-c++
+RUN yum -y install make
 RUN yum -y install wget
 RUN yum -y install xz
 
